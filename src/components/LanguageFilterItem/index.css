@@ -2,16 +2,16 @@
 
 .nav-button {
   font-family: 'Roboto';
-  font-size: 25px;
+  font-size: 20px;
   color: #1e293b;
   border: none;
   background-color: transparent;
 }
 .styled-nav-button {
   font-family: 'Roboto';
-  font-size: 25px;
-  color: #1e293b;
-  border: 1px solid #0284c7;
+  font-size: 20px;
+  color: #0284c7;
+  border: 2px solid #0284c7;
   border-radius: 8px;
   background-color: transparent;
 }
