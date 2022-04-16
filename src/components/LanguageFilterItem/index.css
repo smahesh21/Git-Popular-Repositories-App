@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.nav-button {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #1e293b;
+  border: none;
+  background-color: transparent;
+}
+.styled-nav-button {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #1e293b;
+  border: 1px solid #0284c7;
+  border-radius: 8px;
+  background-color: transparent;
+}
+@media screen and (max-width: 576px) {
+  .nav-button {
+    font-size: 18px;
+  }
+
+  .styled-nav-button {
+    font-size: 18px;
+  }
+}

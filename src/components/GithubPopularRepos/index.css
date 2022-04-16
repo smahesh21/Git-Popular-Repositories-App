@@ -1,0 +1,73 @@
+.github-popular-repos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 16px;
+}
+.github-popular-repos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular-heading {
+  font-family: 'Robobo';
+  font-size: 36px;
+  font-weight: 500;
+  color: #0f172a;
+}
+.styled_popular_heading {
+  font-family: 'Lobster';
+  font-size: 36px;
+  font-weight: 500;
+  color: #0f172a;
+}
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.languages-container {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.repository-list-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 25vh;
+  width: 100%;
+  padding: 0px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-image {
+  height: 400px;
+  width: 400px;
+}
+.failure-text {
+  font-family: 'Lobster';
+  font-size: 45px;
+  font-weight: 500;
+  color: #0f172a;
+}
+@media screen and (max-width: 576px) {
+  .repository-list-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+  }
+  .failure-image {
+    height: 250px;
+    width: 250px;
+  }
+  .failure-text {
+    font-size: 35px;
+  }
+}
